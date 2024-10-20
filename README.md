@@ -18,19 +18,28 @@ The main goals of this analysis are:
 3. To provide insights and recommendations for improving student performance.
 
 ## Features in the Dataset
-
 The dataset includes the following key features:
 
-- **Gender**: Male/Female
-- **Age**: Age of the student
-- **Study Time**: Weekly study time in hours
-- **Health Status**: Overall health of the student (1-5)
-- **Absences**: Number of absences
-- **Failures**: Number of past class failures
-- **Family Support**: Yes/No
-- **School Support**: Yes/No
-- **Grade**: Final grade obtained by the student
-
+- **Hours_Studied**: Number of hours studied per week
+- **Attendance**: Percentage of classes attended
+- **Parental_Involvement**: Level of parental involvement in the student's education
+- **Access_to_Resources**: Availability of academic resources (High/Low)
+- **Extracurricular_Activities**: Participation in extracurricular activities (Yes/No)
+- **Sleep_Hours**: Average hours of sleep per night
+- **Previous_Scores**: Previous academic performance (percentage)
+- **Motivation_Level**: Self-reported motivation level (Low/Medium/High)
+- **Internet_Access**: Access to the internet for study purposes (Yes/No)
+- **Tutoring_Sessions**: Number of tutoring sessions attended
+- **Family_Income**: Family income level (Low/Medium/High)
+- **Teacher_Quality**: Perceived quality of teaching (Low/Medium/High)
+- **School_Type**: Type of school attended (Public/Private)
+- **Peer_Influence**: Influence of peers on academic performance (Negative/Neutral/Positive)
+- **Physical_Activity**: Hours of physical activity per week
+- **Learning_Disabilities**: Presence of learning disabilities (Yes/No)
+- **Parental_Education_Level**: Highest level of education attained by parents
+- **Distance_from_Home**: Distance from home to school (Near/Far)
+- **Gender**: Gender of the student
+- **Exam_Score**: Final exam score
 ## Analysis Process
 
 1. **Data Cleaning**: Handle missing data, outliers, and incorrect data entries.
